@@ -1,8 +1,10 @@
 body {
+  background-color: rgba(30, 27, 44, 0.9);
   font-family: Plus Jakarta Sans;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
     url("../images/background-image.jpg");
   background-size: cover;
   background-position: center;
@@ -14,16 +16,17 @@ h1 {
   margin: 0 auto;
   font-size: 128px;
   font-weight: 800;
-  line-height: 160px;
+  line-height: 1.25;
 }
 h2 {
   margin-top: 0;
   font-size: 32px;
-  line-height: 50px;
+  line-height: 1.5;
+  letter-spacing: 5px;
 }
 h3 {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 1.25;
   margin-bottom: 32px;
 }
 .container {
@@ -38,13 +41,35 @@ h3 {
   padding-bottom: 48px;
 }
 .learn-button {
-  margin-top: 62px;
   padding: 16px 32px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   background-color: #e33b6e;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
   text-decoration: none;
   text-align: center;
-  font-weight: 500;
   color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 64px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .hero-heading {
+    padding: 54px 0 282px;
+  }
+  .learn-button {
+    padding: 8px 16px;
+    font-size: 10px;
+  }
+  .hero-subtitle {
+    padding-top: 48px;
+    padding-bottom: 72px;
+  }
 }
