@@ -1,11 +1,50 @@
 body {
+  font-family: Plus Jakarta Sans;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
+  color: whitesmoke;
 }
 h1 {
-  font-family: Plus Jakarta Sans;
+  margin: 0 auto;
   font-size: 128px;
   font-weight: 800;
-  line-height: 161.28px;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  line-height: 160px;
+}
+h2 {
+  margin-top: 0;
+  font-size: 32px;
+  line-height: 50px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hero-heading {
+  padding: 106px 0 282px;
+}
+.hero-subtitle {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.learn-button {
+  margin-top: 62px;
+  padding: 16px 32px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: #e33b6e;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  color: whitesmoke;
 }
