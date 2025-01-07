@@ -29,6 +29,18 @@ h3 {
   line-height: 1.25;
   margin-bottom: 32px;
 }
+footer {
+  color: whitesmoke;
+}
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(119, 113, 113);
+}
+footer h4 {
+  font-size: 18px;
+  line-height: 1.5;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -53,6 +65,18 @@ h3 {
   color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.footer-grid {
+  margin: 5% 10% 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 64px;
+}
+.footer-links {
+  line-height: 1.5;
+}
+.footer-git-link {
+  text-align: center;
 }
 @media (max-width: 900px) {
   h1 {
