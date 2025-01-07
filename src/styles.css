@@ -22,17 +22,19 @@ h1 {
   line-height: 1.25;
 }
 h2 {
-  margin-top: 0;
+  margin: 0;
   font-size: 32px;
   line-height: 1.5;
   letter-spacing: 5px;
 }
 h3 {
+  margin: 0;
   font-size: 24px;
   line-height: 1.25;
   margin-bottom: 32px;
 }
 h5 {
+  margin: 0;
   letter-spacing: 5px;
   font-weight: 800;
   color: #e2104f;
@@ -69,7 +71,8 @@ footer p {
   margin: 0 auto;
 }
 .hero-heading {
-  padding: 106px 0 282px;
+  margin-bottom: 36px;
+  padding: 106px 0 284px;
 }
 .hero-subtitle {
   padding-top: 24px;
@@ -110,7 +113,7 @@ footer p {
 .why-text {
   padding-left: 64px;
 }
-.why-button {
+.button-container {
   padding-top: 20px;
 }
 .why-box {
