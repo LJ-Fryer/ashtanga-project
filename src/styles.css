@@ -38,9 +38,16 @@ footer a {
   text-shadow: 1px 1px 2px rgb(119, 113, 113);
 }
 footer h4 {
+  margin-bottom: 12px;
   font-size: 18px;
   line-height: 1.5;
 }
+footer p {
+  margin-top: 0;
+  font-family: "Poppins", serif;
+  font-size: 14px;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -73,6 +80,7 @@ footer h4 {
   gap: 64px;
 }
 .footer-links {
+  font-family: "Roboto", serif;
   line-height: 1.5;
 }
 .footer-git-link {
@@ -95,5 +103,12 @@ footer h4 {
   .hero-subtitle {
     padding-top: 48px;
     padding-bottom: 72px;
+  }
+}
+@media (max-width: 900px) {
+  .footer-grid {
+    margin: 5% 25% 2%;
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }
