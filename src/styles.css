@@ -142,6 +142,9 @@ section.secondary {
 
 .grid-3-columns {
   padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
 }
 .card-img {
   max-width: 185px;
