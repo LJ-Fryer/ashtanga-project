@@ -16,7 +16,7 @@ header {
   text-align: center;
 }
 h1 {
-  margin: 0 auto;
+  margin: 0;
   font-size: 112px;
   font-weight: 800;
   line-height: 1.25;
@@ -90,7 +90,11 @@ footer p {
   border-top: 10px solid rgba(18, 16, 29, 0.2);
   border-bottom: 10px solid rgba(18, 16, 29, 0.2);
   grid-template-columns: 1fr 1fr;
+  gap: 48px;
   background-color: #12101d;
+}
+.why-box {
+  max-width: 450px;
 }
 .learn-button {
   padding: 16px 32px;
@@ -110,11 +114,9 @@ footer p {
 .why-image {
   border-radius: 15px;
 }
-.why-text {
-  padding-left: 64px;
-}
+
 .button-container {
-  padding-top: 20px;
+  padding-top: 12px;
 }
 .why-box {
   align-self: center;
@@ -159,14 +161,25 @@ footer p {
   .grid-2-columns {
     padding: 50px 30px;
     grid-template-columns: 1fr;
-    justify-content: center;
+    gap: 12px;
+    justify-items: center;
   }
   .why-text {
     padding: 25px 10px 0;
+  }
+  .why-text h2 {
+    font-size: 24px;
   }
   .footer-grid {
     padding: 30px;
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+}
+@media (max-width: 1200px) {
+  .grid-2-columns {
+    padding: 50px 50px;
+    gap: 24px;
+    justify-items: center;
   }
 }
