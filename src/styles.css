@@ -54,9 +54,9 @@ footer {
   background-repeat: no-repeat;
 }
 footer a {
-  color: #f5f5f5;
-  opacity: 0.7;
-  text-decoration: none;
+  color: #fcfcfc;
+  opacity: 0.9;
+
   text-shadow: 1px 1px 2px rgba(119, 113, 113, 0.5);
 }
 footer h4 {
@@ -143,7 +143,6 @@ section.tertiary {
 
 .grid-3-columns {
   padding: 40px 100px 50px;
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 48px;
 }
@@ -181,9 +180,14 @@ section.tertiary {
   margin-top: 8px;
 }
 .tertiary p {
+  padding: 0 20px;
   font-family: "Playfair Display", serif;
   text-shadow: 1px 1px 2px rgba(119, 113, 113, 0.5);
 }
+.instagram-embeds {
+  gap: 96px;
+}
+
 .footer-grid {
   padding: 50px 100px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -192,8 +196,14 @@ section.tertiary {
 .footer-links {
   line-height: 1.5;
 }
-
-@media (max-width: 900px) {
+@media (max-width: 550px) {
+  .grid-3-columns {
+    margin: 0;
+    padding: 50px 0;
+    gap: 48px;
+  }
+}
+@media (max-width: 960px) {
   h1 {
     font-size: 56px;
   }
@@ -247,6 +257,11 @@ section.tertiary {
     padding: 30px;
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+}
+@media (min-width: 961px) and (max-width: 1300px) {
+  .instagram-embeds {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 1200px) {
