@@ -146,6 +146,12 @@ footer a {
 .primary-image {
   border-radius: 12px;
 }
+.primary-text i {
+  color: #e2104f;
+}
+.primary-text p {
+  font-size: 14px;
+}
 
 .primary-button-container {
   padding-top: 12px;
@@ -265,6 +271,7 @@ footer a {
 
   .grid-3-columns {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
   .secondary-card {
     max-width: 376px;
@@ -284,7 +291,6 @@ footer a {
 @media (max-width: 1200px) {
   .grid-2-columns {
     padding: 50px 50px;
-    gap: 24px;
     justify-items: center;
   }
   .primary-text h2 {
